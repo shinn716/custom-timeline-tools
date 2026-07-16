@@ -7,13 +7,13 @@ Install via Package Manager (Add package from git URL):
 ```
 https://github.com/shinn716/CustomTimelineTools.git?path=Packages/com.shinn.timeline
 ```
-
+  
 <img src="https://github.com/shinn716/CustomTimelineTools/blob/main/imgs/tutorial.gif" width="70%"/></a>
 
 ## Custom Text playable asset
-* Step 1: Add text playable asset.
+* Step 1: Add text playable asset.  
 <img src="https://github.com/shinn716/CustomTimelineTools/blob/main/imgs/Snipaste_2022-03-07_15-58-38.png" width="70%"/></a>
-* Step 2: Set parameter in timeline.
+* Step 2: Set parameter in timeline.  
 <img src="https://github.com/shinn716/CustomTimelineTools/blob/main/imgs/Snipaste_2022-03-07_16-00-20.png" width="70%"/></a>
 
 ## Custom UnityEvent playable asset
