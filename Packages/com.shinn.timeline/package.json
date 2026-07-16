@@ -1,0 +1,42 @@
+{
+  "name": "com.shinn.timeline",
+  "version": "2.0.0",
+  "displayName": "CustomTimeLineToolkit",
+  "description": "Custom Unity Timeline tracks.\n\n- Custom-Text: drive UGUI Text (and TextMeshPro via sample) content, color and font size from timeline clips.\n- Custom-UnityEvent: UnityEvent-style clip — drag any Object (GameObject, Light, custom MonoBehaviour, ...) and invoke one of its public methods at clip start. Supported parameters: void, int, float, string, bool, Vector2/3/4, Color, Quaternion, enum, and UnityEngine.Object (project assets). Property setters are listed too. Fires in Play mode only. Replaces the old Custom-Event / Custom-MSG tracks (2.0.0).\n- Custom-AVProMediaPlayer: AVPro media player control track (via sample).\n\nSamples include a demo scene and timeline for Custom-UnityEvent.",
+  "unity": "6000.3",
+  "documentationUrl": "https://github.com/shinn716/CustomTimelineTools#readme",
+  "changelogUrl": "https://github.com/shinn716/CustomTimelineTools/blob/main/Packages/com.shinn.timeline/CHANGELOG.md",
+  "licensesUrl": "https://github.com/shinn716/CustomTimelineTools/blob/main/Packages/com.shinn.timeline/LICENSE.md",
+  "keywords": [
+    "timeline",
+    "playable",
+    "unityevent",
+    "text",
+    "avpro"
+  ],
+  "dependencies": {
+    "com.unity.timeline": "1.8.12",
+    "com.unity.ugui": "2.0.0"
+  },
+  "author": {
+    "name": "John Tsai",
+    "email": "shinn716@livemail.tw"
+  },
+  "samples": [
+    {
+      "displayName": "TextMeshPro Custom-Text",
+      "description": "TextMeshPro variant of the Custom-Text track: drive TMP text content, color and font size from timeline clips. Requires com.unity.textmeshpro / uGUI 2.0+.",
+      "path": "TextMeshProCustomText~"
+    },
+    {
+      "displayName": "AVPro Custom-MediaPlayer",
+      "description": "Timeline track for controlling AVPro Video media playback from clips, with a demo scene and timeline (see the sample README for setup). Requires the AVPro Video plugin.",
+      "path": "AVProCustomMediaPlayer~"
+    },
+    {
+      "displayName": "Custom UnityEvent",
+      "description": "Demo scene and timeline for the Custom-UnityEvent track: logs a message (string), dims a Light (float property setter) and hides a Cube (bool) at 1s/2s/3s. Includes a demo MonoBehaviour used as the invocation target.",
+      "path": "CustomUnityEvent~"
+    }
+  ]
+}

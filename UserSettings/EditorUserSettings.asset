@@ -5,6 +5,30 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+    QuickInstaller_com.unity.purchasing_installRecorded:
+      value: 2550581500
+      flags: 0
+    QuickInstaller_com.unity.services.levelplay_installRecorded:
+      value: 2550581500
+      flags: 0
+    RecentlyUsedSceneGuid-0:
+      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 070356555c025c5a0e5a0f75447b5d1317144b7c2f2c25367b7a4e67bae36d3e
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 00500c0001515d5a0c565977407a0844454f4f722e2d71362f281e35b7e1603e
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 5b020d0506025c5d5d5a552640265e4442164f722f7e7569287c4f6ae6b46039
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5302055101530d5e540f0e7544765d44134e1d2c7c792435782f4960e1b7373d
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 57090d5752515d59580d557544750c154f121b7f742d27347c784b37e0b4666e
+      flags: 0
     RecentlyUsedScenePath-0:
       value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
       flags: 0
@@ -19,9 +43,15 @@ EditorUserSettings:
   m_VCDebugCmd: 0
   m_VCDebugOut: 0
   m_SemanticMergeMode: 2
+  m_DesiredImportWorkerCount: 3
+  m_StandbyImportWorkerCount: 2
+  m_IdleImportWorkerShutdownDelay: 60000
   m_VCShowFailedCheckout: 1
   m_VCOverwriteFailedCheckoutAssets: 1
   m_VCProjectOverlayIcons: 1
   m_VCHierarchyOverlayIcons: 1
   m_VCOtherOverlayIcons: 1
   m_VCAllowAsyncUpdate: 1
+  m_VCScanLocalPackagesOnConnect: 1
+  m_ArtifactGarbageCollection: 1
+  m_CompressAssetsOnImport: 1
